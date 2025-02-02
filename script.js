@@ -15,8 +15,8 @@ function displayResults(result) {
     const artistImage = document.getElementById('artist-img')
 
     result.forEach(element => {
-        artistName.innerText = element.artistName;
-        artistImage.src = element.urlImag;
+        artistName.innerText = element.name
+        artistImage.src = element.urlImg
     })
 
     resultArtist.classList.remove('hidden')
